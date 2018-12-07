@@ -12,9 +12,11 @@ tested up to Notepad++ v7.5.9
 It is better to have only one syntax installed for AHK, otherwise Notepad++ will choose automatically always the first one.
 
 * **Default Theme** (
-[Download](../master/userDefineLang/default/userDefineLang_AHK.xml) | [Preview](https://raw.githubusercontent.com/jNizM/ahk_notepad-plus-plus/master/userDefineLang/default/udl_default.png) )  
+[Download](../master/userDefineLang/default/AHK_syntax_Default.xml) | [Preview](../master/userDefineLang/default/udl_default.png) )
 * **Lazy Theme** (
-[Download](../master/userDefineLang/lazy/userDefineLang_AHK.xml) | [Preview](https://raw.githubusercontent.com/jNizM/ahk_notepad-plus-plus/master/userDefineLang/lazy/udl_lazy.png) )
+[Download](../master/userDefineLang/lazy/AHK_syntax_Lazy.xml) | [Preview](../master/userDefineLang/lazy/udl_lazy.png) )
+* **Dark Theme** (
+[Download](../master/userDefineLang/dark/AHK_syntax_Dark.xml) | [Preview](../master/userDefineLang/dark/udl_dark.png) )
 
 ---
 
@@ -32,8 +34,8 @@ It is better to have only one syntax installed for AHK, otherwise Notepad++ will
 
 ## Plugins
 1. Download PlugIns
-2. Save it to the right location `Notepad++\plugins\`  
-Notepad++ loads plugins at startup. To load a new plugin, you can either close and restart Notepad++,  
+2. Save it to the right location `Notepad++\plugins\`
+Notepad++ loads plugins at startup. To load a new plugin, you can either close and restart Notepad++,
 or use the `Settings --> Import --> Import plugin` command.
 
 **Useful Plug-In's**
@@ -49,7 +51,7 @@ or use the `Settings --> Import --> Import plugin` command.
 ##### With a *.reg File
 ```
 Windows Registry Editor Version 5.00
- 
+
 [HKEY_CLASSES_ROOT\AutoHotkeyScript\Shell\Edit\Command]
 @="C:\\Program Files (x86)\\Notepad++\\notepad++.exe %1"
 ```
