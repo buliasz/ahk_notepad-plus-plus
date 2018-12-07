@@ -1,12 +1,15 @@
 # Setup Notepad++ for AutoHotkey
-tested up to Notepad++ v6.9.1
+tested up to Notepad++ v7.5.9
 
 ## Syntax-Highlighting
-1. Download `userDefineLang_AHK.xml` (as raw)
-2. Save it to the right location `(C:\Program Files (x86)\Notepad++\userDefineLang_AHK.xml)`
-3. Start Notepad++ and click on Menu `Language --> Define your language`
-4. `Import` your userDefineLang
-5. `Restart` Notepad++
+1. Download `AHK_syntax_Default.xml`/`AHK_syntax_Lazy.xml`/`AHK_syntax_Dark.xml` (as raw)
+2. Save it to any location of your choice
+3. Start Notepad++ and click on menu `Language -> Define your language... -> Import`
+4. Choose the downloaded `.xml` file
+5. Close all open Notepad++ windows and then start it again
+6. Your new syntax should be on the bottom of `Language` menu.
+
+It is better to have only one syntax installed for AHK, otherwise Notepad++ will choose automatically always the first one.
 
 * **Default Theme** (
 [Download](../master/userDefineLang/default/userDefineLang_AHK.xml) | [Preview](https://raw.githubusercontent.com/jNizM/ahk_notepad-plus-plus/master/userDefineLang/default/udl_default.png) )  
